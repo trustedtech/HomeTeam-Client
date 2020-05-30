@@ -1,0 +1,341 @@
+body {
+    background-color: #fff;
+}
+
+.nav-wrapper {
+    padding-top: 20px;
+}
+
+nav ul li a, nav a i {
+    color: #69EBF9;
+}
+
+nav ul li {
+    margin-left: 10px
+}
+
+nav i.material-icons {
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+header {
+    margin-bottom:15px;
+}
+
+nav a.brand-logo {
+}
+
+.navbar-fixed, nav {
+    min-height:90px !important;
+}
+
+nav {
+    box-shadow: none;
+}
+
+section {
+    padding: 0 !important;
+}
+
+ul.sidenav {
+    padding-top: 30px;
+}
+
+ul.sidenav li {
+    margin-bottom: 20px;
+}
+
+.sidenav li>a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #69EBF9;
+
+}
+
+.sidenav li>a>i.material-icons {
+    color: #FFCF6E;
+}
+
+#colored-double-hr {
+    border-top: 2px solid #FFCF6E;
+    border-bottom: 2px solid #69EBF9;
+    min-height: 5px !important;
+}
+
+.sidenav-overlay {
+    background-color: transparent;
+}
+
+.dashbox {
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px !important;
+    margin-bottom: 20px;
+    min-width: 100%;
+}
+
+.dashbox-label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #FFCF6E;
+    margin: 0;
+}
+
+.line-item {
+    margin: 8px;
+}
+
+.task-tag {
+    display: inline-block;
+    padding: 3px 5px 3px 5px;
+    background-color: #f9feff;
+    color: #0938418c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    max-width: 60%;
+}
+
+.task-due-today {
+    background-color: #e7f6ff; 
+    border-color: #afc2ce;
+
+}
+
+.task-tag-snoozed {
+    background-color: #fff;
+    color: #09384147;
+}
+
+.task-actions {
+    display: inline-block;
+    float: right;
+    padding: 3px 5px 3px 5px;
+}
+
+.task-actions-2 {
+    display: inline-block;
+    float: right;
+    padding: 3px 25px 3px 5px;
+}
+
+.task-action-icon {
+    font-size: 1.8em;
+    margin: 0 5px;
+}
+
+.task-group-header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: normal;
+    color: lightskyblue;
+    margin: 1.5em 0;
+}
+
+.task-due-day-tag {
+    margin-left: 8px;
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .81.2em;
+    font-weight: normal;
+    font-style: italic;
+    color: slategray;
+}
+
+.hh-notice {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #fffaf0;
+    color: #0938418c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 3px solid #FFCF6E;
+    width: 100%;
+}
+
+.hh-notice-text {
+
+}
+
+.hh-notice-actions {
+
+}
+
+.hhadm-members-list {
+    margin-top: 20px;
+}
+
+.hhadm-members-list-item {
+    padding: 5px;
+    color: #757575;
+    font-weight: bolder;
+}
+
+.hhadm-members-list-badges {
+    display: inline-block;
+    float: right;
+}
+
+.display-none {
+    display: none;
+}
+
+#signup-dropform {
+    border: none;
+    box-shadow: none;
+}
+
+#signup-dropform .collapsible-header {
+    border-bottom: none;
+    padding: 1rem 0 0 1.70rem;
+}
+
+#signup-dropform .collapsible-body {
+    border-bottom: none;
+    padding: 1.70rem;
+}
+
+/* #signup-button {
+    margin: 0;
+    background-color: #69ebf940;
+    border: 1px solid steelblue;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: steelblue;
+} */
+
+.input-field {
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+}
+
+.auth-btn {
+    background-color: #69ebf940;
+    border: 2px solid #b9eef3;
+    color: gray;
+    margin-left: 12px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    border-radius: 4px;
+    box-shadow: none;
+    text-transform: none;
+    height: 40px;
+
+}
+
+.auth-btn:hover {
+    background-color: #69EBF9;
+    box-shadow: none;
+}
+
+.auth-btn:focus {
+    background-color: #69EBF9;
+    box-shadow: none;
+}
+
+#signup-select {
+    margin-left: 0;
+}
+
+#signup-select.btn:focus {
+    background-color: #fff8e9;
+    border: 2px solid #ebe3d1;
+}
+
+#identity-member {
+    color: #69EBF9;
+}
+
+#identity-household {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    color: darkgray;
+    margin: .5em 0;
+}
+
+#identity-badges {
+    font-size: .8em;
+    font-weight: lighter;
+    font-style: normal;
+    color: #FFCF6E;
+}
+
+.input-field>label {
+    font-size: .9rem;
+}
+
+@media only screen and (min-width: 0px)  {
+ /* On Phones */
+    #ht-logo {
+        max-height: 50px;
+    }
+
+    nav i.material-icons {
+        font-size: 36px;
+    }
+
+    nav {
+        min-height:70px !important;
+    } 
+    
+}
+
+@media only screen and (min-width: 601px)  {
+/* On Tablets */
+     #ht-logo {
+        max-height: 60px;
+    }
+
+    nav i.material-icons {
+        font-size: 40px;
+    }
+
+    nav {
+        min-height:80px !important;
+    }
+
+    /* ul.right.hide-on-med-and-down {
+        margin-top: 15px;
+    } */
+    
+}
+
+@media only screen and (min-width: 993px)  {
+/* On Tablets/Computers */
+    #ht-logo {
+        max-height: 70px;
+    }
+
+    nav i.material-icons {
+        font-size: 36px;
+    }
+
+    nav {
+        min-height:90px !important;
+    }
+
+    nav .right { 
+        margin-top: 12px;
+    }
+
+    #welcome-dash {
+        height: 414px;
+    }
+    
+}
+
+@media only screen and (min-width: 1201px)  {
+/* On Computers */
+    #welcome-dash {
+        height: 420px;
+    }
+
+} 
