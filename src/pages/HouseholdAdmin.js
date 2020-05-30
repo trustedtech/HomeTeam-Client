@@ -239,6 +239,8 @@ export default function HouseholdAdmin(props) {
                                 </div>
                                 <p className='task-due-day-tag'></p> 
                                 <div className='task-actions'>
+                                    <i className="md-48 material-icons task-action-icon" style={{color:' slategray'}}>repeat</i>
+                                    <i className="md-48 material-icons task-action-icon" style={{color:'slategray'}}>person</i>
                                 </div>
                             </li>
                             <li class='line-item'>
@@ -246,7 +248,9 @@ export default function HouseholdAdmin(props) {
                                     Trim Hedges
                                 </div>
                                 <p class='task-due-day-tag'></p> 
-                                <div class='task-actions'>
+                                <div className='task-actions'>
+                                    <i className="md-48 material-icons task-action-icon" style={{color:' slategray'}}>repeat</i>
+                                    <i className="md-48 material-icons task-action-icon" style={{color:'slategray'}}>person</i>
                                 </div>
                             </li>
                             <li class='line-item'>
@@ -254,7 +258,9 @@ export default function HouseholdAdmin(props) {
                                     Rake Leaves
                                 </div>
                                 <p class='task-due-day-tag'></p> 
-                                <div class='task-actions'>
+                                <div className='task-actions'>
+                                    <i className="md-48 material-icons task-action-icon" style={{color:' slategray'}}>repeat</i>
+                                    <i className="md-48 material-icons task-action-icon" style={{color:'slategray'}}>person</i>
                                 </div>
                             </li>
                         </ul>
